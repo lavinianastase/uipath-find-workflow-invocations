@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiPathTeam.FindWfInvocations", "UiPathTeam.FindWfInvocations\UiPathTeam.FindWfInvocations.csproj", "{B57DD42C-2986-4123-A264-D282BA7DE2CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindWfInvocations.Tests", "FindWfInvocations.Tests\FindWfInvocations.Tests.csproj", "{4F873B39-3B0F-4C4F-9DE6-A795F0FF30B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B57DD42C-2986-4123-A264-D282BA7DE2CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B57DD42C-2986-4123-A264-D282BA7DE2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B57DD42C-2986-4123-A264-D282BA7DE2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B57DD42C-2986-4123-A264-D282BA7DE2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F873B39-3B0F-4C4F-9DE6-A795F0FF30B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F873B39-3B0F-4C4F-9DE6-A795F0FF30B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F873B39-3B0F-4C4F-9DE6-A795F0FF30B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F873B39-3B0F-4C4F-9DE6-A795F0FF30B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBBFE8CF-E5B5-4170-89D6-21F59BD6591C}
+	EndGlobalSection
+EndGlobal
