@@ -1,0 +1,2 @@
+# uipath-find-workflow-invocations
+Sometimes, during development, developers need to change arguments in workflows; if those workflows are invoked in other workflows, they will have runtime errors. Currently, there is no method to validate the whole project and find the references of the invoked workflow.  This custom activity has one input parameter - the workflow we want to search in the current project; it outputs a list of workflows, in the current project, where the input workflow is invoked. Afterward, the developer can refactor.
